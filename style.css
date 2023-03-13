@@ -5,11 +5,113 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 30px 0;
     background-color: blueviolet;
 }
 
 .form-container{
     background-color: #fff;
     width: 80%;
+    min-height: 90%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
 }
+
+.form-container .login-container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-container .login-container h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.form-container .login-container > p,
+.form-container .login-container > span{
+    text-align: center;
+    color: #555;
+}
+
+.form-container .login-container label{
+    display: block;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.form-container .login-container input.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container .login-container input.input:focus{
+    outline: 2px solid #0099ff;
+}
+
+.form-container .login-container .opciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container a{
+    color: #0099ff;
+    text-decoration: none;
+}
+
+.form-container a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn.btn-login{
+    background-color: #000;
+    color: #fff;
+}
+
+.btn.btn-login:hover{
+    background-color: #333;
+}
+
+.btn.btn-facebook{
+    background-color: rgb(40, 40, 206);
+    color: #fff;
+}
+
+.btn.btn-facebook:hover{
+    background-color: rgb(23, 23, 136);
+}
+
+.btn.btn-google{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+.btn.btn-google:hover{
+    background-color: #ccc;
+}
+
+.form-container .login-container .provedores{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
