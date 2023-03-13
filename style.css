@@ -6,4 +6,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: blueviolet;
+}
+
+.form-container{
+    background-color: #fff;
+    width: 80%;
 }
